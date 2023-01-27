@@ -1,0 +1,16 @@
+max_iter: 50 #50000
+hidden_dim: 128
+out_dim: 1024
+n_layers: 15
+lr: 0.001
+img_dims: [32, 32]
+valid_window: 10 #10000
+train_loss_window: 1 #10
+img_gen_window: 500
+img_gen_init: 51
+data_path: '..'
+batch_size: 16
+save_dir: 'results'
+debug: True
+debug_interactive: True
+debug_size: 10
